@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cursoGo/GoPractica/mapas"
+	"cursoGo/GoPractica/users"
 )
 
 func main() {
@@ -49,5 +49,6 @@ func main() {
 	//funciones.Exponecia(2)
 	//arreglosslices.MuestroArreglos()
 	//arreglosslices.Capacidad()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	users.AltaUsuario()
 }
