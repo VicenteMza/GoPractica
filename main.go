@@ -1,7 +1,8 @@
 package main
 
 import (
-	"cursoGo/GoPractica/users"
+	ejerintefaces "cursoGo/GoPractica/ejer_intefaces"
+	"cursoGo/GoPractica/modelos"
 )
 
 func main() {
@@ -50,5 +51,10 @@ func main() {
 	//arreglosslices.MuestroArreglos()
 	//arreglosslices.Capacidad()
 	//mapas.MostrarMapas()
-	users.AltaUsuario()
+	//users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	ejerintefaces.HumanoRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	ejerintefaces.HumanoRespirando(Maria)
 }
