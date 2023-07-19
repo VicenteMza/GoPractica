@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cursoGo/GoPractica/files"
+	"cursoGo/GoPractica/mapas"
 )
 
 func main() {
@@ -43,5 +43,11 @@ func main() {
 	*/
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponecia(2)
+	//arreglosslices.MuestroArreglos()
+	//arreglosslices.Capacidad()
+	mapas.MostrarMapas()
 }
