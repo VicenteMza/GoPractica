@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cursoGo/GoPractica/webserver"
+	"cursoGo/GoPractica/middelware"
 )
 
 func main() {
@@ -67,5 +67,9 @@ func main() {
 		go goroutines.MiNombreLento("vicente", canal1)
 	*/
 	//Servidor web en go
-	webserver.MiWebServer()
+	//webserver.MiWebServer()
+
+	//Middelware
+
+	middelware.MiMiddelware()
 }
