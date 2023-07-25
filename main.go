@@ -1,8 +1,7 @@
 package main
 
 import (
-	ejerintefaces "cursoGo/GoPractica/ejer_intefaces"
-	"cursoGo/GoPractica/modelos"
+	"cursoGo/GoPractica/webserver"
 )
 
 func main() {
@@ -52,9 +51,21 @@ func main() {
 	//arreglosslices.Capacidad()
 	//mapas.MostrarMapas()
 	//users.AltaUsuario()
-	Pedro := new(modelos.Hombre)
-	ejerintefaces.HumanoRespirando(Pedro)
+	/*
+		Pedro := new(modelos.Hombre)
+		ejerintefaces.HumanoRespirando(Pedro)
 
-	Maria := new(modelos.Mujer)
-	ejerintefaces.HumanoRespirando(Maria)
+		Maria := new(modelos.Mujer)
+		ejerintefaces.HumanoRespirando(Maria)
+	*/
+	//defer_panic.EjemploPanic()
+	/*
+		canal1 := make(chan bool)
+		defer func() {
+			<-canal1
+		}()
+		go goroutines.MiNombreLento("vicente", canal1)
+	*/
+	//Servidor web en go
+	webserver.MiWebServer()
 }
